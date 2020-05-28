@@ -29,13 +29,24 @@ public class Calibracion_Inteligente_G6 {
         System.out.println("Modelo computacional");
         System.out.println("Caso practico Robots en la Industria Automotriz");
         System.out.println("Calibracion Inteligente");
-        System.out.println("6. Registro del Nivel ERP");
-        String erp=objeto.nextLine();
+         System.out.println("Los Niveles De Automotizacion Industrial");
+        System.out.println("1. Administracion de Nivel de Campo");
+        String campo=objeto.nextLine();
         
-        System.out.println("5. Registro del Nivel MES");
+        System.out.println("2. Administracion de Nivel de Control PLC");
+        String plc=objeto.nextLine();
+        
+        System.out.println("3. Administracion de Nivel de Supervision");
+        String supervision=objeto.nextLine();
+        
+        System.out.println("4. Registro del Nivel MES");
         String mes=objeto.nextLine();
         
-        System.out.println("7. Imprimir Reportes");
+        System.out.println("5. Registro del Nivel ERP");
+        String erp=objeto.nextLine();
+        
+   
+        System.out.println("6. Imprimir Reportes");
         String reportes=objeto.nextLine();
     }
     
