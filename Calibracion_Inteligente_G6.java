@@ -30,6 +30,15 @@ public class Calibracion_Inteligente_G6 {
         System.out.println("Caso practico Robots en la Industria Automotriz");
         System.out.println("Calibracion Inteligente");
 
+        System.out.println("1. Los Niveles De Automotizacion Industrial:");
+        String nivel=objeto.nextLine();
+
+        System.out.println("1.1 Ingrese el significado de las siglas CNC:");
+        String siglas=objeto.nextLine();
+
+        System.out.println("1.2 Para que esta diseñada la maquina CNC:");
+        String diseño=objeto.nextLine();
+
         System.out.println("3. Administracion de Nivel de Control PLC");
         String control=objeto.nextLine();
 
