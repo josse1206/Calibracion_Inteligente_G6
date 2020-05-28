@@ -32,6 +32,9 @@ public class Calibracion_Inteligente_G6 {
         System.out.println("6. Registro del Nivel ERP");
         String erp=objeto.nextLine();
         
+        System.out.println("5. Registro del Nivel MES");
+        String mes=objeto.nextLine();
+        
         System.out.println("7. Imprimir Reportes");
         String reportes=objeto.nextLine();
     }
