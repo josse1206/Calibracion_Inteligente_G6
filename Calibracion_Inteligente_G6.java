@@ -31,7 +31,7 @@ public class Calibracion_Inteligente_G6 {
         System.out.println("Calibracion Inteligente");
 
         System.out.println("3. Administracion de Nivel de Control PLC");
-        String controlplc=objeto.nextLine();
+        String control=objeto.nextLine();
 
         System.out.println("4. Administracion de Nivel de Supervision");
         String supervision=objeto.nextLine();
